@@ -29,7 +29,7 @@ namespace DemoShoppingApp.WebUI.Areas.Admin.Controllers
         {
             CategoryViewModel categoryVM = new CategoryViewModel();
 
-            if(ID == null || ID == 0) // DIQQETLI OL == 0 YAZMISAN, SILMELI OLA BILERSEN
+            if(ID == null || ID == 0)
             {
                 return View(categoryVM);
             }
